@@ -134,7 +134,7 @@ def main(page: ft.Page):
             content=ft.Text(text, color=color, size=12),
             bgcolor=color + "22",
             border_radius=8,
-            padding=ft.padding.symmetric(horizontal=10, vertical=6),
+            padding=ft.Padding(left=10, right=10, top=6, bottom=6),
         )
 
     def set_state(verdict, contact, reasons, score_info):
